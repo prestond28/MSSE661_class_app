@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: green;
+    min-height: 100vh;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 200px;
+    margin: auto;
+}
+
+.input-field {
+    width: 100%;
+}
+
+.nav-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.author {
+    margin: 0;
+    position: relative;
+    top: 18.4px;
+}
