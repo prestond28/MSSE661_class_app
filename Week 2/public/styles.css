@@ -2,15 +2,19 @@ body {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    background-color: green;
     min-height: 100vh;
     margin: 0;
+}
+
+a {
+    padding: 20px;
 }
 
 header {
     width: 100%;
     display: flex;
     justify-content: center;
+    background-color: rgb(124, 228, 129);
 }
 
 .login {
@@ -25,7 +29,7 @@ header {
     width: 100%;
 }
 
-.nav-footer {
+.nav {
     display: flex;
     justify-content: center;
 }
@@ -33,5 +37,9 @@ header {
 .author {
     margin: 0;
     position: relative;
-    top: 18.4px;
+    top: 58.4px;
+}
+
+p.author a {
+    padding: 0;
 }
