@@ -1,0 +1,4 @@
+.vscode
+**/word_docs
+**/node_modules
+**/package-lock.json
