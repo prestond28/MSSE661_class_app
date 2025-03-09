@@ -16,12 +16,12 @@ const config = {
   coverageDirectory: "coverage",
 
   transform: {
-    "^.+\.m?[tj]sx?$": "babel-jest", 
+    "^.+\\.[tj]sx?$": "babel-jest", 
   },
   setupFiles: ["jest-localstorage-mock"],
 
   // The test environment that will be used for testing
-  testEnvironment: "node",
+  testEnvironment: "jsdom",
 
   // The glob patterns Jest uses to detect test files
   testMatch: [
@@ -32,4 +32,4 @@ const config = {
 
 };
 
-export default config;
+module.exports = config;
